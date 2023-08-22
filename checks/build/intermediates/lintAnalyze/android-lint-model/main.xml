@@ -1,0 +1,26 @@
+<variant
+    name="main"
+    package=""
+    debuggable="true"
+    partialResultsDir="build/intermediates/lint_partial_results/global/out">
+  <buildFeatures/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="build/fakeAndroidManifest/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"/>
+  </sourceProviders>
+  <testSourceProviders>
+    <sourceProvider
+        manifests="build/fakeAndroidManifest/test/AndroidManifest.xml"
+        javaDirectories="src/test/java:src/test/kotlin"
+        unitTest="true"/>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <mainArtifact
+      classOutputs="build/classes/java/main:build/classes/kotlin/main"
+      applicationId="">
+  </mainArtifact>
+  <testArtifact>
+  </testArtifact>
+</variant>

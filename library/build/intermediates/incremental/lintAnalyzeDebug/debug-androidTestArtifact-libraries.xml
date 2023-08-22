@@ -1,0 +1,39 @@
+<libraries>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10@jar"
+      jars="/Users/troy12/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.10/7c002ac41f547a82e81dfebd2a20577a738dbf3f/kotlin-stdlib-jdk8-1.8.10.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10@jar"
+      jars="/Users/troy12/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.10/cb726a23c808a850a43e7d6b9d1ba91b02fe9f05/kotlin-stdlib-jdk7-1.8.10.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib:1.8.10@jar"
+      jars="/Users/troy12/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.10/6d5560a229477df9406943d5feda5618e98eb64c/kotlin-stdlib-1.8.10.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib:1.8.10"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10@jar"
+      jars="/Users/troy12/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.10/a61b182458550492c12aee66157d7b524a63a5ec/kotlin-stdlib-common-1.8.10.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10"/>
+  <library
+      name="org.jetbrains:annotations:13.0@jar"
+      jars="/Users/troy12/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar"
+      resolved="org.jetbrains:annotations:13.0"/>
+  <library
+      name="/Users/troy12/dev/testboard@@:checks"
+      jars="/Users/troy12/dev/testboard/checks/build/libs/checks.jar"
+      resolved="My Application:checks:unspecified"/>
+  <library
+      name="/Users/troy12/dev/testboard@@:lib_lint::debug"
+      jars="/Users/troy12/dev/testboard/lib_lint/build/.transforms/90bac211c07c6d2f4454bce0feb617e1/transformed/out/jars/classes.jar:/Users/troy12/dev/testboard/lib_lint/build/.transforms/90bac211c07c6d2f4454bce0feb617e1/transformed/out/jars/libs/R.jar"
+      resolved="My Application:lib_lint:unspecified"
+      folder="/Users/troy12/dev/testboard/lib_lint/build/.transforms/90bac211c07c6d2f4454bce0feb617e1/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+</libraries>

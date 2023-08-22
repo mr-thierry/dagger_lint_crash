@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/troy12/dev/testboard/checks"
+    name=":checks"
+    type="JAVA_LIBRARY"
+    maven="My Application:checks:"
+    agpVersion="8.1.0"
+    buildFolder="build"
+    resourcePrefix=""
+    javaSourceLevel="17"
+    compileTarget=""
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="main"/>
+</lint-module>

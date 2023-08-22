@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.0" type="incidents">
+
+    <incident
+        id="LintImplUseExistingConstants"
+        severity="warning"
+        message="Use `Scope.JAVA_FILE_SCOPE` instead">
+        <fix-replace
+            description="Replace with Scope.JAVA_FILE_SCOPE"
+            robot="true"
+            independent="true"
+            oldString="of(Scope.JAVA_FILE)"
+            replacement="com.android.tools.lint.detector.api.Scope.JAVA_FILE_SCOPE"
+            shortenNames="true"/>
+        <location
+            file="${:checks*main*sourceProvider*0*javaDir*0}/com/example/lint/checks/DaggerKotlinIssueDetector.kt"
+            line="79"
+            column="13"
+            startOffset="4238"
+            endLine="79"
+            endColumn="40"
+            endOffset="4265"/>
+    </incident>
+
+    <incident
+        id="LintImplTextFormat"
+        severity="warning"
+        message="&quot;JvmStatic&quot; looks like a code reference; surround with backtics in string to display as symbol, e.g. \`JvmStatic\`">
+        <fix-replace
+            description="Surround with backtics"
+            robot="true"
+            independent="true"
+            oldString="JvmStatic"
+            replacement="`JvmStatic`">
+            <range
+                file="${:checks*main*sourceProvider*0*javaDir*0}/com/example/lint/checks/DaggerKotlinIssueDetector.kt"
+                startOffset="4667"
+                endOffset="4676"/>
+        </fix-replace>
+        <location
+            file="${:checks*main*sourceProvider*0*javaDir*0}/com/example/lint/checks/DaggerKotlinIssueDetector.kt"
+            line="88"
+            column="80"
+            startOffset="4667"
+            endLine="88"
+            endColumn="89"
+            endOffset="4676"/>
+    </incident>
+
+    <incident
+        id="LintImplTextFormat"
+        severity="warning"
+        message="The issue summary should *not* end with a period (think of it as a headline)">
+        <location
+            file="${:checks*main*sourceProvider*0*javaDir*0}/com/example/lint/checks/DaggerKotlinIssueDetector.kt"
+            line="98"
+            column="33"
+            startOffset="5030"
+            endLine="98"
+            endColumn="89"
+            endOffset="5086"/>
+    </incident>
+
+    <incident
+        id="LintImplTextFormat"
+        severity="warning"
+        message="The issue summary should be shorter; typically just a 3-6 words; it&apos;s used as a topic header in HTML reports and in the IDE inspections window">
+        <location
+            file="${:checks*main*sourceProvider*0*javaDir*0}/com/example/lint/checks/DaggerKotlinIssueDetector.kt"
+            line="111"
+            column="33"
+            startOffset="5531"
+            endLine="111"
+            endColumn="95"
+            endOffset="5593"/>
+    </incident>
+
+    <incident
+        id="LintImplTextFormat"
+        severity="warning"
+        message="The issue summary should *not* end with a period (think of it as a headline)">
+        <location
+            file="${:checks*main*sourceProvider*0*javaDir*0}/com/example/lint/checks/DaggerKotlinIssueDetector.kt"
+            line="124"
+            column="33"
+            startOffset="6084"
+            endLine="124"
+            endColumn="88"
+            endOffset="6139"/>
+    </incident>
+
+    <incident
+        id="LintImplTextFormat"
+        severity="warning"
+        message="Multi-line issue explanation strings will interpret line separators as hard breaks, and this looks like a continuation of the same paragraph. Consider using \ at the end of the previous line to indicate that the lines should be joined, or add a blank line between unrelated sentences, or suppress this issue type here.">
+        <location
+            file="${:checks*main*sourceProvider*0*javaDir*0}/com/example/lint/checks/DaggerKotlinIssueDetector.kt"
+            line="127"
+            column="9"
+            startOffset="6192"
+            endLine="127"
+            endColumn="92"
+            endOffset="6275"/>
+    </incident>
+
+    <incident
+        id="LintImplTextFormat"
+        severity="warning"
+        message="&quot;JvmStatic&quot; looks like a code reference; surround with backtics in string to display as symbol, e.g. \`JvmStatic\`">
+        <fix-replace
+            description="Surround with backtics"
+            robot="true"
+            independent="true"
+            oldString="JvmStatic"
+            replacement="`JvmStatic`">
+            <range
+                file="${:checks*main*sourceProvider*0*javaDir*0}/com/example/lint/checks/DaggerKotlinIssueDetector.kt"
+                startOffset="4667"
+                endOffset="4676"/>
+        </fix-replace>
+        <location
+            file="${:checks*main*sourceProvider*0*javaDir*0}/com/example/lint/checks/DaggerKotlinIssueDetector.kt"
+            line="88"
+            column="80"
+            startOffset="4667"
+            endLine="88"
+            endColumn="89"
+            endOffset="4676"/>
+    </incident>
+
+    <incident
+        id="LintImplTextFormat"
+        severity="warning"
+        message="The issue summary should *not* end with a period (think of it as a headline)">
+        <location
+            file="${:checks*main*sourceProvider*0*javaDir*0}/com/example/lint/checks/DaggerKotlinIssueDetector.kt"
+            line="98"
+            column="33"
+            startOffset="5030"
+            endLine="98"
+            endColumn="89"
+            endOffset="5086"/>
+    </incident>
+
+    <incident
+        id="LintImplTextFormat"
+        severity="warning"
+        message="The issue summary should be shorter; typically just a 3-6 words; it&apos;s used as a topic header in HTML reports and in the IDE inspections window">
+        <location
+            file="${:checks*main*sourceProvider*0*javaDir*0}/com/example/lint/checks/DaggerKotlinIssueDetector.kt"
+            line="111"
+            column="33"
+            startOffset="5531"
+            endLine="111"
+            endColumn="95"
+            endOffset="5593"/>
+    </incident>
+
+    <incident
+        id="LintImplTextFormat"
+        severity="warning"
+        message="The issue summary should *not* end with a period (think of it as a headline)">
+        <location
+            file="${:checks*main*sourceProvider*0*javaDir*0}/com/example/lint/checks/DaggerKotlinIssueDetector.kt"
+            line="124"
+            column="33"
+            startOffset="6084"
+            endLine="124"
+            endColumn="88"
+            endOffset="6139"/>
+    </incident>
+
+    <incident
+        id="LintImplTextFormat"
+        severity="warning"
+        message="Multi-line issue explanation strings will interpret line separators as hard breaks, and this looks like a continuation of the same paragraph. Consider using \ at the end of the previous line to indicate that the lines should be joined, or add a blank line between unrelated sentences, or suppress this issue type here.">
+        <location
+            file="${:checks*main*sourceProvider*0*javaDir*0}/com/example/lint/checks/DaggerKotlinIssueDetector.kt"
+            line="127"
+            column="9"
+            startOffset="6192"
+            endLine="127"
+            endColumn="92"
+            endOffset="6275"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.android.tools.lint:lint-api than 31.0.2 is available: 31.1.0">
+        <fix-replace
+            description="Change to 31.1.0"
+            family="Update versions"
+            oldString="31.0.2"
+            replacement="31.1.0"/>
+        <location
+            file="${:checks*projectDir}/build.gradle"
+            line="15"
+            column="17"
+            startOffset="345"
+            endLine="15"
+            endColumn="57"
+            endOffset="385"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.android.tools.lint:lint-checks than 31.0.2 is available: 31.1.0">
+        <fix-replace
+            description="Change to 31.1.0"
+            family="Update versions"
+            oldString="31.0.2"
+            replacement="31.1.0"/>
+        <location
+            file="${:checks*projectDir}/build.gradle"
+            line="17"
+            column="17"
+            startOffset="444"
+            endLine="17"
+            endColumn="60"
+            endOffset="487"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk8 than 1.7.10 is available: 1.9.0">
+        <location
+            file="${:checks*projectDir}/build.gradle"
+            line="18"
+            column="17"
+            startOffset="504"
+            endLine="18"
+            endColumn="66"
+            endOffset="553"/>
+    </incident>
+
+</incidents>

@@ -1,0 +1,50 @@
+<dependencies>
+  <compile
+      roots="/Users/troy12/dev/testboard@@:lib_lint::debug,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10@jar,/Users/troy12/dev/testboard@@:checks,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10@jar,org.jetbrains.kotlin:kotlin-stdlib:1.8.10@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10@jar,org.jetbrains:annotations:13.0@jar">
+    <dependency
+        name="/Users/troy12/dev/testboard@@:lib_lint::debug"
+        simpleName="My Application:lib_lint"/>
+    <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10@jar"
+        simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk8"/>
+    <dependency
+        name="/Users/troy12/dev/testboard@@:checks"
+        simpleName="artifacts::checks"/>
+    <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10@jar"
+        simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk7"/>
+    <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib:1.8.10@jar"
+        simpleName="org.jetbrains.kotlin:kotlin-stdlib"/>
+    <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10@jar"
+        simpleName="org.jetbrains.kotlin:kotlin-stdlib-common"/>
+    <dependency
+        name="org.jetbrains:annotations:13.0@jar"
+        simpleName="org.jetbrains:annotations"/>
+  </compile>
+  <package
+      roots="/Users/troy12/dev/testboard@@:lib_lint::debug,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10@jar,/Users/troy12/dev/testboard@@:checks,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10@jar,org.jetbrains.kotlin:kotlin-stdlib:1.8.10@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10@jar,org.jetbrains:annotations:13.0@jar">
+    <dependency
+        name="/Users/troy12/dev/testboard@@:lib_lint::debug"
+        simpleName="My Application:lib_lint"/>
+    <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10@jar"
+        simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk8"/>
+    <dependency
+        name="/Users/troy12/dev/testboard@@:checks"
+        simpleName="artifacts::checks"/>
+    <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10@jar"
+        simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk7"/>
+    <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib:1.8.10@jar"
+        simpleName="org.jetbrains.kotlin:kotlin-stdlib"/>
+    <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10@jar"
+        simpleName="org.jetbrains.kotlin:kotlin-stdlib-common"/>
+    <dependency
+        name="org.jetbrains:annotations:13.0@jar"
+        simpleName="org.jetbrains:annotations"/>
+  </package>
+</dependencies>

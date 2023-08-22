@@ -50,8 +50,9 @@ android {
 dependencies {
     implementation("com.google.dagger:dagger:2.47")
     kapt ("com.google.dagger:dagger-compiler:2.47")
-    implementation("com.google.dagger:dagger-android:2.47")
+    //implementation("com.google.dagger:dagger-android:2.47")
 
+    implementation(project(":library"))
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")

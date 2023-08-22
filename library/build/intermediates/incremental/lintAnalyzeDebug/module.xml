@@ -1,0 +1,20 @@
+<lint-module
+    format="1"
+    dir="/Users/troy12/dev/testboard/lib_lint"
+    name=":lib_lint"
+    type="LIBRARY"
+    maven="My Application:lib_lint:"
+    agpVersion="8.1.0"
+    buildFolder="build"
+    bootClassPath="/Users/troy12/Library/Android/sdk/platforms/android-34/android.jar:/Users/troy12/Library/Android/sdk/build-tools/33.0.1/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      checkDependencies="true"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>
